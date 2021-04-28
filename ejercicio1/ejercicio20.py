@@ -2,8 +2,8 @@
 suma = 0
 
 while True:
-	i = int(input("Dime un numero: ")
+	i = int(input("Dime un numero: "))
 	suma = suma + i
 	if (i == 0):
 		break;
-print("La suma total es: " + str(i))
+print("La suma total es: " + str(suma))
