@@ -41,6 +41,5 @@ if (opc == 1 and num == 1 or opc == 2 and num == 2 or opc == 3 and num == 3):
 	print("Habeis quedado empate")
 elif (opc == 1 and num == 3 or opc == 2 and num == 1 or opc == 3 and num == 2):
 	print("Ha ganado el usuario")
- 
 else:
 	print("Ha ganado la maquina")
