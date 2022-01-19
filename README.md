@@ -1,2 +1,0 @@
-# python
-Practicas de python
