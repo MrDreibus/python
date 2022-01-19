@@ -26,7 +26,6 @@ def menu():
 
 
 #PROGRAMA
-#Falta añadir puerto 1994
 puertos = ["20-21", "22", "23", "25", "53", "80", "110", "137-139", "143", "161-162", "443", "465", "514", "587", "989-990", "993", "995", "3306", "3389"]
 servicios =["FTP", "SSH", "Telnet", "SMTP", "DNS", "HTTP", "POP3", "NetBios", "IMAP", "SNMPs", "HTTPs", "SMTP", "syslog", "SMTP", "FTPs", "IMAP4s", "POP3s", "MySQL", "RPD"]
 
