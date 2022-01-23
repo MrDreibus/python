@@ -8,7 +8,7 @@ def numPortService(numPor, nameService):
 	if (solucion.lower() == nameService.lower()):
 		print("Correcto")
 	else:
-		print("Incorrecto")
+		print("Incorrecto, el puerto es " + nameService)
 
 def serviceNumPort(numPor, nameService):
 	solucion = input("Dime el puerto servicio de " + nameService + ": ")
@@ -26,8 +26,9 @@ def menu():
 
 
 #PROGRAMA
-puertos = ["20-21", "22", "23", "25", "53", "80", "110", "137-139", "143", "161-162", "443", "465", "514", "587", "989-990", "993", "995", "3306", "3389"]
-servicios =["FTP", "SSH", "Telnet", "SMTP", "DNS", "HTTP", "POP3", "NetBios", "IMAP", "SNMPs", "HTTPs", "SMTP", "syslog", "SMTP", "FTPs", "IMAP4s", "POP3s", "MySQL", "RPD"]
+#Falta añadir puerto 1994
+puertos = [	"20-21", "22", "23", "25-587", "53", "80", "110", "137-139", "143", "161-162", "443", "465", "514", "989-990", "993", "995", "3306", "3389", "1194"]
+servicios =["FTP", "SSH", "Telnet", "SMTP", "DNS", "HTTP", "POP3", "NetBios", "IMAP", "SNMP", "HTTPs", "SMTPs", "syslog", "FTPs", "IMAP4s", "POP3s", "MySQL", "RPD", "OpenVPN"]
 
 menu()
 
