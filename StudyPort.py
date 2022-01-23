@@ -15,7 +15,7 @@ def serviceNumPort(numPor, nameService):
 	if (solucion == numPor):
 		print("Correcto")
 	else:
-		print("Incorrecto")
+		print("Incorrecto, el puerto es " + numPor)
 
 def menu():
 	print ("=========Menu========")
