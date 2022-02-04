@@ -44,10 +44,10 @@ servicios =["FTP", "SSH", "Telnet", "SMTP", "DNS", "HTTP", "POP3", "NetBios", "I
 while True:
 	menu()
 
-	opc = int(input("Elige una opcion: "))
+	opc = input("Elige una opcion: ")
 	cont = 0
 
-	if opc == 1:
+	if opc == "1":
 		print("Diga 'exit' para salir")
 
 		while True:
@@ -60,7 +60,7 @@ while True:
 			if (solucion == "exit"):
 				break
 		
-	elif opc == 2:
+	elif opc == "2":
 		print("Diga 'exit' para salir")
 
 		while True:
@@ -75,5 +75,7 @@ while True:
 
 	elif opc == 3:
 		exit()
+
 	else:
 		print("Esta opcion no existe \nSaliendo...")
+		break
